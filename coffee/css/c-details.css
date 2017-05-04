@@ -1,0 +1,172 @@
+.title {
+  width: 100%;
+  box-sizing: border-box;
+  height: 0.68rem;
+  background-color: #f2f2f2;
+  font-size: 0.26rem;
+  line-height: 0.68rem;
+  color: #333;
+}
+.title .fleft {
+  box-sizing: border-box;
+  border-bottom: 2px solid #df007f;
+  margin-top: -0.02rem;
+  padding: 0 0.2rem;
+}
+.title .fright {
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+}
+.title .fright a {
+  color: #333;
+}
+.content1 {
+  width: 100%;
+  padding: 0.08rem 0.15rem 0.08rem 0.2rem;
+  box-sizing: border-box;
+  height: 2.48rem;
+  border-bottom: 1px solid #ccc;
+}
+.content1 p {
+  line-height: 0.48rem;
+  color: #999;
+  font-size: 0.24rem;
+}
+.content1 p:nth-child(2) {
+  color: #df007f;
+}
+.content2 {
+  width: 100%;
+  padding: 0.08rem 0.15rem 0.08rem 0.2rem;
+  box-sizing: border-box;
+  height: 2.48rem;
+  border-bottom: 1px solid #ccc;
+  height: 3.4rem;
+}
+.content2 p {
+  line-height: 0.48rem;
+  color: #999;
+  font-size: 0.24rem;
+}
+.content2 p:nth-child(2) {
+  color: #df007f;
+}
+.content2 p {
+  line-height: 0.46rem;
+  color: #333;
+}
+.content2 p:nth-child(2) {
+  color: #333;
+}
+.timetable {
+  width: 100%;
+  border-bottom: 1px solid #333;
+}
+.timetable .title {
+  width: 100%;
+  box-sizing: border-box;
+  height: 0.68rem;
+  background-color: #f2f2f2;
+  font-size: 0.26rem;
+  line-height: 0.68rem;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+.timetable .title .fleft {
+  box-sizing: border-box;
+  border-bottom: 2px solid #df007f;
+  margin-top: -0.02rem;
+  padding: 0 0.2rem;
+}
+.timetable .title .fright {
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+}
+.timetable .title .fright a {
+  color: #333;
+}
+.timetable .title .seedate .fleft {
+  border: none;
+}
+.timetable .title .seedate .fleft:nth-child(1) a {
+  color: #df007f;
+}
+.timetable .syllabus {
+  height: 3.44rem;
+}
+.timetable .syllabus img {
+  width: 100%;
+  height: 100%;
+}
+.content3 {
+  width: 100%;
+  padding: 0.08rem 0.15rem 0.08rem 0.2rem;
+  box-sizing: border-box;
+  height: 2.48rem;
+  height: 3.4rem;
+  height: 1.1rem;
+  border-bottom: 1px solid #ccc;
+}
+.content3 p {
+  line-height: 0.48rem;
+  color: #999;
+  font-size: 0.24rem;
+}
+.content3 p:nth-child(2) {
+  color: #df007f;
+}
+.content3 p {
+  line-height: 0.46rem;
+  color: #333;
+}
+.content3 p:nth-child(2) {
+  color: #333;
+}
+.content4 {
+  width: 100%;
+  padding: 0.08rem 0.15rem 0.08rem 0.2rem;
+  box-sizing: border-box;
+  height: 2.48rem;
+  border-bottom: 1px solid #ccc;
+  height: 3.4rem;
+  height: 2.08rem;
+}
+.content4 p {
+  line-height: 0.48rem;
+  color: #999;
+  font-size: 0.24rem;
+}
+.content4 p:nth-child(2) {
+  color: #df007f;
+}
+.content4 p {
+  line-height: 0.46rem;
+  color: #333;
+}
+.content4 p:nth-child(2) {
+  color: #333;
+}
+.content4 p {
+  color: #999;
+}
+.content4 p:nth-child(2) {
+  color: #999;
+}
+.contect {
+  width: 100%;
+  height: 0.8rem;
+}
+.contect li {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+.contect li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.contect li a img {
+  width: 100%;
+  height: 100%;
+}

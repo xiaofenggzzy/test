@@ -1,0 +1,102 @@
+header span {
+  background-image: url("../images/msg1.png");
+  width: 0.45rem;
+  height: 0.42rem;
+}
+.sort {
+  width: 100%;
+  height: 0.68rem;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+.sort li {
+  float: left;
+  width: calc(33.33333333%);
+  text-align: center;
+  height: 100%;
+  line-height: 0.68rem;
+  font-size: 0.26rem;
+  position: relative;
+}
+.sort li a {
+  color: #333;
+}
+.sort li i {
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 0.28rem;
+  top: 0.2rem;
+  right: 0;
+  background-color: #ccc;
+}
+.sort p {
+  width: calc(33.33333333%);
+  position: absolute;
+  height: 0.02rem;
+  bottom: -1px;
+  left: 0;
+  background-color: #df007f;
+}
+.activity .title {
+  width: 100%;
+  box-sizing: border-box;
+  height: 0.68rem;
+  background-color: #f2f2f2;
+  font-size: 0.26rem;
+  line-height: 0.68rem;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+.activity .title .fleft {
+  box-sizing: border-box;
+  border-bottom: 2px solid #df007f;
+  margin-top: -0.02rem;
+  padding: 0 0.2rem;
+}
+.activity .title .fright {
+  box-sizing: border-box;
+  padding: 0 0.2rem;
+}
+.activity .title .fright a {
+  color: #333;
+}
+.activity .tr-list li {
+  width: 100%;
+  height: 1.9rem;
+  box-sizing: border-box;
+  padding: 0.2rem;
+  border-bottom: 1px solid #ccc;
+}
+.activity .tr-list li .tr-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  overflow: hidden;
+  background-image: url("../images/coffee1.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.activity .tr-list li .tr-content {
+  margin-left: 0.2rem;
+  width: 4.2rem;
+}
+.activity .tr-list li .tr-content p {
+  width: 100%;
+  color: #333;
+  font-size: 0.26rem;
+  line-height: 0.3rem;
+}
+.activity .tr-list li .tr-content .writer {
+  font-size: 0.24rem;
+  color: #999;
+  margin-top: 0.34rem;
+}
+.activity .tr-list li .tr-content .times {
+  font-size: 0.24rem;
+  color: #999;
+  margin-top: 0.2rem;
+}
+.whitespace {
+  height: 1rem;
+  width: 100%;
+}

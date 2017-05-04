@@ -1,0 +1,149 @@
+header{
+  a{
+    i{
+      background-image: url('../images/setup.png');
+      width: 0.43rem;
+      height: 0.41rem;
+      background-size: 100% 100%;
+    }
+  }
+  span{
+    background-image: url("../images/msg.png");
+    background-size: 100% 100%;
+    width: 0.47rem;
+    height: 0.5rem;
+    top: 0.15rem;
+  }
+}
+.user-content{
+  background-image: url("../images/banner6.jpg");
+  width: 100%;
+  height: 2.22rem;
+  background-size: 100% 3.8rem;
+  background-position: 100% -0.6rem;
+  position: relative;
+  padding-top: 0.24rem;
+  box-sizing: border-box;
+  span{
+    position: absolute;
+    top: 0.2rem;
+    left: 0.2rem;
+    color: #fff;
+    font-size: 0.26rem;
+  }
+  i{
+    display: block;
+    width: 1.24rem;
+    height: 1.24rem;
+    border-radius: 50%;
+    background-image: url("../images/user-img.jpg");
+    background-position:center;
+    background-size: 1.29rem 1.29rem;
+    margin: 0 auto;
+    border: 0.06rem solid rgba(0,0,0,0.5);
+  }
+  p{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 0.3rem;
+  }
+}
+.grey-space{
+  width: 100%;
+  height: 0.1rem;
+  background: #f2f2f2;
+}
+.nav{
+  width: 100%;
+  height: 0.92rem;
+  li{
+    width: 25%;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    height: 100%;
+    padding-top: 0.1rem;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    position: relative;
+    a{
+      display: block;
+      width: 100%;
+      height:100%;
+      i{
+        display: block;
+        background-image: url("../images/order.png");
+        width: 0.4rem;
+        height: 0.35rem;
+        background-size: 0.32rem 0.34rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin: 0 auto;
+      }
+      span{
+        display: block;
+        margin-top: 0.1rem;
+      }
+    }
+    b{
+      display: block;
+      position: absolute;
+      width: 1px;
+      height: 0.28rem;
+      background-color: #ccc;
+      right: 0;
+      top: 0.32rem;
+    }
+    &:nth-child(1){
+      border-bottom: 2px solid #df007f;
+    }
+    &:nth-child(2){
+      a{
+        i{
+          background-image: url("../images/p-pay.png");
+          background-size: 0.39rem 0.31rem;
+        }
+      }
+    }
+    &:nth-child(3){
+      a{
+        i{
+          background-image: url("../images/a-pay.png");
+          background-size: 0.39rem 0.35rem;
+        }
+      }
+    }
+    &:nth-child(4){
+      a{
+        i{
+          background-image: url("../images/evaluate.png");
+          background-size: 0.33rem 0.35rem;
+        }
+      }
+    }
+  }
+}
+.my-content{
+  width: 100%;
+  height: 4.05rem;
+  border-bottom: 0.02rem solid #df007f;
+  li{
+    float: left;
+    width: calc(100%/3);
+    height: 50%;
+    box-sizing: border-box;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    img{
+      width: 2.13rem;
+      height: 2.02rem;
+    }
+    &:nth-child(1), &:nth-child(2), &:nth-child(3){
+      border-top:none;
+    }
+    &:nth-child(1),&:nth-child(4){
+      border-left: none;
+    }
+  }
+}

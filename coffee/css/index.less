@@ -1,0 +1,453 @@
+.logo{
+  width: 100%;
+  height: 0.88rem;
+  img{
+    width: 1.35rem;
+    height: 0.74rem;
+    display: block;
+    margin: 0.07rem auto;
+  }
+}
+.search{
+  width: 100%;
+  height: 0.82rem;
+  background-color: #f2f2f2;
+  padding: 0.11rem;
+  box-sizing: border-box;
+  .search1{
+    height: 0.6rem;
+    width: 6rem;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #cdcccc;
+    border-radius: 0.3rem;
+    padding: 0 0.3rem;
+    box-sizing: border-box;
+    div{
+      cursor: pointer;
+      font-size: 0.28rem;
+      color: #666;
+      float: left;
+      margin-top: 0.1rem;
+      i{
+        display: inline-block;
+        width: 0.22rem;
+        height: 0.13rem;
+        background-image: url("../images/down.png");
+        background-size: 100%;
+        margin-left: 0.1rem;
+      }
+    }
+    input{
+      font-size: 0.26rem;
+      color: #999;
+      line-height: 0.3rem;
+      border-left: 1px solid #cdcccc;
+      text-indent: 0.1rem;
+      margin-left: 0.1rem;
+      float: left;
+      margin-top: 0.15rem;
+      width: 3.68rem;
+    }
+    a{
+      display: block;
+      width: 0.4rem;
+      height: 0.32rem;
+      background-image: url("../images/search.png");
+      background-size: 100%;
+      float: left;
+      margin-top: 0.15rem;
+    }
+  }
+}
+.banner{
+  width: 100%;
+  height: 2.22rem;
+  position: relative;
+  overflow: hidden;
+  .banner-img{
+    width: 100%;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    li{
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+  }
+  .banner-pit{
+    width: 100%;
+    position: absolute;
+    bottom: 0.1rem;
+    text-align: center;
+    span{
+      display: inline-block;
+      height: 0.08rem;
+      width: 0.08rem;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+    .carousel_icon1{
+      background-color: #df007f;
+    }
+    .carousel_icon2{
+      background-color: #fff;
+    }
+
+  }
+}
+.train{
+  width: 100%;
+  .title{
+    width: 100%;
+    box-sizing: border-box;
+    height: 0.68rem;
+    background-color: #f2f2f2;
+    font-size: 0.26rem;
+    line-height: 0.68rem;
+    color: #333;
+    border-bottom: 1px solid #ccc;
+    .fleft{
+      box-sizing: border-box;
+      border-bottom: 2px solid #df007f;
+      margin-top: -0.02rem;
+      padding:0 0.2rem;
+    }
+    .fright{
+      box-sizing: border-box;
+      padding:0 0.2rem;
+      a{
+        color: #333;
+      }
+    }
+  }
+  .tr-list{
+    li{
+      width: 100%;
+      height: 1.9rem;
+      box-sizing: border-box;
+      padding: 0.2rem;
+      border-bottom: 1px solid #ccc;
+      .tr-img{
+        width: 1.5rem;
+        height: 1.5rem;
+        overflow: hidden;
+        background-image: url("../images/coffee1.jpg");
+        background-size: 100%;
+        background-position: center;
+      }
+      .tr-content{
+        margin-left: 0.2rem;
+        width: 4.2rem;
+        p{
+          width: 100%;
+          color: #333;
+          font-size: 0.26rem;
+          line-height: 0.3rem;
+          .star{
+            width: 0.3rem;
+            height: 0.3rem;
+            background-image: url("../images/n-collect.png");
+            background-size: 100% 100%;
+          }
+          .star-active{
+            background-image: url("../images/collect.png");
+          }
+        }
+        .num,.times span{
+          color: #999;
+        }
+        .num{
+          line-height: 0.45rem;
+        }
+        .price{
+          color: #df007f;
+          font-size: 0.34rem;
+          i{
+            font-size: 0.22rem;
+          }
+        }
+        .times{
+          line-height: 0.42rem;
+          height: 0.42rem;
+          overflow: hidden;
+          span{
+            line-height: 0.6rem;
+          }
+          button{
+            width: 1.75rem;
+            height: 0.42rem;
+            border-radius: 0.21rem;
+            color: #fff;
+            background-color: #df007f;
+            font-size: 0.24rem;
+            box-sizing: border-box;
+            border:1px solid #df007f;
+          }
+        }
+      }
+      &:nth-child(2),&:nth-child(3){
+        background: #f5f5f5;
+        .tr-img{
+          background-image: url("../images/coffee2.jpg");
+        }
+        .tr-content{
+          .times{
+            button{
+              color: #df007f;
+              background: #fff;
+            }
+          }
+        }
+      }
+      &:nth-child(3){
+        background: #fff;
+        .tr-img{
+          background-image: url("../images/coffee3.jpg");
+        }
+      }
+    }
+  }
+}
+.timetable{
+  .train;
+  .title{
+    .seedate{
+      .fleft{
+        border: none;
+        &:nth-child(1){
+          a{
+            color: #df007f;
+          }
+        }
+      }
+    }
+  }
+  .syllabus{
+    height: 3.44rem;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+.banner2{
+  width: 100%;
+  height: 2.1rem;
+  img{
+    width: 100%;
+    height: 100%;
+  }
+}
+.news{
+  .train;
+  .n-content{
+    width: 100%;
+    padding: 0 0.2rem 0.2rem;
+    box-sizing: border-box;
+    li{
+      width: 100%;
+      margin-top: 0.2rem;
+      font-size: 0.24rem;
+      color: #999;
+      a{
+        color: #999;
+      }
+      span{
+        float: right;
+      }
+      &:nth-child(1){
+        color: #df007f;
+        a{
+          color: #df007f;
+        }
+      }
+    }
+  }
+}
+.teacher{
+  .train;
+  .t-content{
+    width: 100%;
+    height: 2.76rem;
+    padding: 0.35rem 0.2rem 0.3rem;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+    li{
+      float: left;
+      margin-left: 0.16rem;
+      a{
+        display: block;
+        width: 1.30rem;
+        height: 1.52rem;
+        background-image: url("../images/angelababy.jpg");
+        background-size: 100% 100%;
+        background-position: center;
+        box-shadow: 0 0 4px #000;
+        border: 0.04rem solid #fff;
+      }
+      span{
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 0.22rem;
+        font-size: 0.22rem;
+        color: #666;
+      }
+      &:nth-child(1){
+        margin-left: 0;
+      }
+      &:nth-child(2){
+        a{
+          background-image: url("../images/steven.jpg");
+        }
+      }
+      &:nth-child(3){
+        a{
+          background-image: url("../images/roland.jpg");
+        }
+      }
+      &:nth-child(4){
+        a{
+          background-image: url("../images/ken.jpg");
+        }
+      }
+    }
+  }
+}
+.student{
+  .teacher;
+  .t-content{
+    li{
+      &:nth-child(1){
+        a{
+          background-image: url("../images/p1.jpg");
+        }
+      }
+      &:nth-child(2){
+        a{
+          background-image: url("../images/p2.jpg");
+        }
+      }
+      &:nth-child(3){
+        a{
+          background-image: url("../images/p3.jpg");
+        }
+      }
+      &:nth-child(4){
+        a{
+          background-image: url("../images/p4.jpg");
+        }
+      }
+    }
+  }
+}
+.student-shop{
+  .student;
+  .t-content{
+    li{
+      &:nth-child(1){
+        a{
+          background-image: url("../images/s1.jpg");
+        }
+      }
+      &:nth-child(2){
+        a{
+          background-image: url("../images/s2.jpg");
+        }
+      }
+      &:nth-child(3){
+        a{
+          background-image: url("../images/s3.jpg");
+        }
+      }
+      &:nth-child(4){
+        a{
+          background-image: url("../images/s4.jpg");
+        }
+      }
+    }
+  }
+}
+.whitespace{
+  height: 1rem;
+  width: 100%;
+}
+footer{
+  width: 100%;
+  height: 1rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  nav{
+    border-top: 0.02rem solid #df007f;
+    height: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    li{
+      float: left;
+      width: 20%;
+      text-align: center;
+      height: 100%;
+      a{
+        display: block;
+        width: 100%;
+        height: 100%;
+        i{
+          display: block;
+          background-image: url("../images/home.png");
+          width: 100%;
+          height: 0.44rem;
+          background-size: 0.43rem 100%;
+          background-position: center;
+          background-repeat: no-repeat;
+          margin-top: 0.15rem;
+        }
+        p{
+          margin-top: 0.1rem;
+        }
+      }
+      &:nth-child(2){
+        a{
+          i{
+            background-image: url("../images/certificate.png");
+          }
+        }
+      }
+      &:nth-child(3){
+        a{
+          i{
+            background-image: url("../images/note.png");
+          }
+        }
+      }
+      &:nth-child(4){
+        a{
+          i{
+            background-image: url("../images/forum.png");
+          }
+        }
+      }
+      &:nth-child(5){
+        a{
+          i{
+            background-image: url("../images/myself.png");
+          }
+        }
+      }
+    }
+  }
+}
